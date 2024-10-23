@@ -1,0 +1,106 @@
+/* styles.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #4b6cb7, #8e44ad); /* Gradiente azul e roxo */
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+#container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 40px 30px; /* Ajustado para melhor espaçamento */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    width: 90%; /* Largura responsiva */
+    max-width: 400px; /* Largura máxima para telas grandes */
+    text-align: center;
+    margin: auto; /* Centraliza o container */
+}
+
+input{
+	font-size: 15px;
+	color: white;
+	
+	}
+
+h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block; /* Garante que o label ocupe toda a largura */
+    margin-bottom: 5px; /* Espaço abaixo do label */
+}
+
+.form-control {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 5px;
+    padding: 10px; /* Padding consistente */
+    margin-bottom: 15px;
+    transition: background 0.3s;
+    width: 80%; /* Faz com que o input ocupe toda a largura do container */
+}
+
+.form-control:focus {
+    background: rgba(255, 255, 255, 0.4);
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
+}
+
+.btn {
+    background: linear-gradient(45deg, #4b6cb7, #8e44ad); /* Gradiente azul e roxo */
+    color: white;
+    border: none;
+    padding: 12px 24px; /* Ajustado para melhor espaçamento */
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Faz com que o botão ocupe toda a largura do container */
+    margin-top: 15px;
+}
+
+a{
+	color: blue;	
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(45deg, #8e44ad, #4b6cb7); /* Gradiente invertido ao passar o mouse */
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    }
+    50% {
+        box-shadow: 0 0 25px rgba(255, 255, 255, 1);
+    }
+    100% {
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    }
+}
+
+.form-check-label {
+    color: white;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+    #container {
+        padding: 30px 20px; /* Ajusta o padding em telas menores */
+    }
+
+    .btn {
+        padding: 10px 20px; /* Ajusta o padding do botão */
+    }
+}
