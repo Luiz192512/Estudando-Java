@@ -226,6 +226,7 @@ Estudando-Java/
 ├── Projetos-Maven/
 │   ├── imc-calculator/
 │   ├── cadastro/
+│   ├── gerenciador-tarefas/
 │   └── atas/
 └── README.md (este arquivo)
 ```
