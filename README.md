@@ -101,6 +101,7 @@ O repositório está organizado em **7 aulas principais** seguindo uma progress�
 - `StatusTarefa.java` - Enum com status das tarefas
 - `Item.java` - Items dentro de uma tarefa
 
+
 **Objetivo:** Praticar organização de dados e relacionamentos entre classes.
 
 ---
@@ -158,6 +159,9 @@ Sistema de cadastro com persistência de dados
 
 ### `atas/`
 Sistema de gerenciamento de atas/reuniões
+
+### `gerenciador-tarefas/`
+Sistema simples de gerenciamento de tarefas com itens e status.
 
 ---
 
